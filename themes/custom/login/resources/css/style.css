@@ -1,0 +1,21 @@
+/* put some styles here */
+
+html > body {
+    background: rgb(0,154,177);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(30,173,235,1) 70%);
+}
+
+button[type="submit"] {
+    background: rgb(0, 144, 206);
+    border: 1px solid rgb(62, 223, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: rgb(0, 158, 189);
+}
